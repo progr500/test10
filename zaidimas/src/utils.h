@@ -3,6 +3,8 @@
 struct Player;
 struct Plate;
 
+bool IsBetween(float val, float rangeB, float rangeE);
+
 namespace utils
 {
 	bool IsBetween(float val, float rangeB, float rangeE);

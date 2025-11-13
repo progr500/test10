@@ -72,8 +72,8 @@ int main()
 	text.setFont(font);
 	text.setString("0");
 	text.setCharacterSize(40);
-	text.setFillColor(Color::Red);
-	text.setOutlineThickness(1);
+	text.setFillColor(Color::Magenta);
+	text.setOutlineThickness(5);
 	text.setOutlineColor(Color::Black);
 	text.setPosition(WINDOW_WIDTH / 2.0f - 25.f, 10.f);
 
